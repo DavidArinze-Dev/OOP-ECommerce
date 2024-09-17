@@ -11,6 +11,7 @@ import subscriberRoute from "./routes/subscriberRoute.js"
 import { authRouter } from "./controllers/authController.js";
 
 
+
 config();
 
 const app = express();

@@ -7,6 +7,7 @@ const Admin = () => {
   const [product, setProduct] = useState([]);
 
   const [loading, setLoading] = useState(false);
+  
 
   useEffect(() => {
     setLoading(true);

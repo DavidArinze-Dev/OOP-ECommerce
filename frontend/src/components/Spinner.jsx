@@ -7,6 +7,7 @@ const Spinner = () => {
                     border-primary border-t-transparent">
        </div>
     </div>
+    
   );
 }
 

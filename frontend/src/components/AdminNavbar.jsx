@@ -9,6 +9,7 @@ const AdminNavbar = () => {
         localStorage.removeItem('token');
         window.location.href = "/";
     }
+    
 
   return (
         <div className="navbar max-w-[1200px] mx-auto">

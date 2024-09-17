@@ -5,6 +5,7 @@ import User from "../models/userModel.js";
 
 const router = express.Router();
 
+
 //ROUTE FOR REGISTER
 router.post('/register', async (req, res) => {
     try {

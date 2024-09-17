@@ -7,6 +7,7 @@ const Footer = () => {
     const [email, setEmail] = useState('');
     const { enqueueSnackbar } = useSnackbar();
 
+    
     const handleSubscribe = async (e) => {
         e.preventDefault();
         try {
